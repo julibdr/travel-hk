@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <title> Hong kong</title>
+    <link rel="shortcut icon" href="./imágenes/piedepaginabuda2.png">
+</head>
+
+<body>
+    <div class="grandiv">
+        <div id="header">
+            <header>
+                <img src="imágenes/backgroundcolor.png" alt="banner de la pagina"/>
+            </header>
+        </div>
+        <div id="mytopnav">
+            <nav>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="interésturístico.html">Interés turístico</a></li>
+                    <li> <a href="información.html">Información</a></li>
+                    <li> <a href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <h1> Participá y ganá</h1>
+        <div class="primertexto">
+            <p>Sumate al sorte llenando este formulario, no te pierdas la posibilidad de ir al sitio que vos quieras en
+                la fecha que vos quieras, ¡no te quedes afuera!</p>
+        </div>
+        <form action="mailto:julietabdr@icloud.com" method="post" enctype="text/plain">
+            <div id="form">
+                <h2>Formulario</h2>
+                <span>Nombre</span>
+                <input type="text" name="nombre" value="Julieta" required>
+                <span>Contraseña</span>
+                <input type="password" name="clave">
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="off">
+                <span>¿Cuántas personas son?</span>
+                <input type="number" name="cantidad de personas" min="1" max="12" step="5">
+                <span>¿En qué fecha?</span>
+                <input type="date" name="fecha">
+                <span>¿En qué horario puedo llamarte?</span>
+                <input type="time" name="time" id="time">
+                <span>Teléfono</span>
+                <input type="tel" name="telefono" value="011-6789-9999" placeholder="ingrese su número">
+                <span>¿Por qué querés ganarte este viaje?</span>
+                <textarea name="Comentario" rows="20" cols="40" placeholder="Comentario" required></textarea>
+                <span>Elija una estación</span>
+                <div id="inputestacion">
+                    <span>Invierno<input type="radio" id="Invierno" name="estación" value="Invierno" /></span>
+                    <span>Verano<input type="radio" id="Verano" name="estación" value="Verano" /></span>
+                    <span>Primavera<input type="radio" id="Primavera" name="estación" value="Primavera" /></span>
+                    <span>Otoño<input type="radio" id="Otoño" name="estación" value="Otoño" /></span>
+                </div>
+                <input type="submit" value="enviar" id="enviar">
+                <input type="reset" value="borrar" id="borrar">
+            </div>
+        </form>
+
+        <footer>
+            <div id="redessociales">
+                <img src="imágenes/redessociales.png" alt="redes sociales" title="redes sociales"/>
+            </div>
+
+            <div id="datos">
+                <ul>
+                    <li>Bariandaran Julieta</li>
+                    <li>Maquetado y Desarrollo Web</li>
+                    <li>Mabel Garcia</li>
+                    <li>Tp 1er cuatrimestre</li>
+                    <li>Escuela Da Vinci</li>
+                    <li>2022</li>
+                    <li><a href="mailto:julieta.bariandaran@davinci.edu.ar">Click y contactame!</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
