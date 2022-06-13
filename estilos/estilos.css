@@ -1,11 +1,11 @@
 body {
   margin: 4%;
-  background-image: url("../imágenes/backgroundddd.png");
-  background-repeat: repeat;
+  background-image: url("../imagenes/backgroundddd.png");
+  
 }
 
 .grandiv {
-  width: 97,5%;
+  width: 97%;
   padding: 1%;
   background-color: white;
 }
@@ -40,9 +40,11 @@ body {
 }
 
 header {
+  background-image: url("../imagenes/backgroundcolor.png");
   width: 100%;
   height: 100%;
-  background-image: url("../imágenes/backgroundcolor.png");
+  background: no-repeat;
+
 }
 
 nav {
@@ -246,7 +248,7 @@ footer li{
 }
 
 footer {
-  width: 97,5%;
+  width: 99%;
   border: 4px solid #d43a2f;
   padding: 2px;
   background-color: white;
